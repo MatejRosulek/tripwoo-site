@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TripWoo..coming soon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <!-- Logo -->
+    <img src="images/logo.png" alt="TripWoo Logo" class="logo" />
+
+    <!-- Nadpis -->
+    <h1>Something exciting is coming... 🌍</h1>
+    <p class="description">
+      While we prepare your next travel experience,<br />
+      play a fun population guessing game!
+    </p>
+
+    <!-- Herní karty -->
+    <div class="cards-container">
+      <div id="leftCard" class="card">
+        <div class="card-overlay" id="leftOverlay"></div>
+      </div>
+      <div id="rightCard" class="card">
+        <div class="card-overlay" id="rightOverlay"></div>
+      </div>
+    </div>
+    <p class="instruction">Choose if the second country has a higher or lower population than the first.</p>
+    <!-- Tlačítka -->
+    <div class="buttons">
+    <button id="higherBtn" class="btn higher">Higher Population</button>
+    <button id="lowerBtn" class="btn lower">Lower Population</button>
+    </div>
+
+
+
+    <!-- Výsledek a skóre -->
+    <p id="result"></p>
+    <p class="score" id="scoreText">Score: 0</p>
+    <button id="restartBtn" style="display: none;">Restart Game</button>
+
+  </div>
+
+  <!-- ✅ Footer MUSÍ být uvnitř <body>, ale za obsahem -->
+  <footer class="site-footer">
+    <p>
+      &copy; 2025 Tripwoo. All rights reserved. |
+      <a href="https://www.instagram.com/tripwoo/" target="_blank">Follow us on Instagram</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+<div class="language-switcher">
+  <a href="index.html" title="English">
+    <img src="https://flagcdn.com/w40/gb.png" alt="English" />
+  </a>
+  <a href="indeks.html" title="Čeština">
+    <img src="https://flagcdn.com/w40/cz.png" alt="Čeština" />
+  </a>
+</div>
+
+</html>
+
+
